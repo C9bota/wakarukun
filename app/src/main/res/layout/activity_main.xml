@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="174dp"
+            android:layout_height="36dp"
+            android:text="2019/05/11（土）"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintVertical_bias="0.023" android:id="@+id/textViewToday"
+            android:textSize="32dp"/>
+    <TextView
+            android:text="今日のトイレ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="210dp" android:id="@+id/textView"/>
+    <TextView
+            android:text="ｎ回"
+            android:textSize="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="16dp"
+            android:id="@+id/textViewKaisuu" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="32dp"/>
+    <Button
+            android:text="おしっこはじめ"
+            android:layout_width="132dp"
+            android:layout_height="83dp"
+            android:id="@+id/button"
+            android:layout_marginBottom="48dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
+    <Button
+            android:text="おしっこおしまい"
+            android:layout_width="136dp"
+            android:layout_height="83dp"
+            android:id="@+id/button3" android:layout_marginBottom="48dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="265dp" tools:srcCompat="@drawable/toilet_smartphone_man"
+            tools:layout_editor_absoluteX="34dp" android:id="@+id/imageView" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="76dp"/>
+    <TextView
+            android:text="00.00"
+            android:textSize="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="162dp" android:id="@+id/textViewTime"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="136dp"/>
+
+</android.support.constraint.ConstraintLayout>

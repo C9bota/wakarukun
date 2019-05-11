@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865656340469",
+    "firebase_url": "https://wakarukun-a849c.firebaseio.com",
+    "project_id": "wakarukun-a849c",
+    "storage_bucket": "wakarukun-a849c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865656340469:android:0ed424c116a4431e",
+        "android_client_info": {
+          "package_name": "com.example.chie.wakarukun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865656340469-ae7s5dcumk6srvfgf2fmbe4b88nnmn21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCk1rzFbj70_JbbIzRa_vjU4tu9-GAHKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865656340469-ae7s5dcumk6srvfgf2fmbe4b88nnmn21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
